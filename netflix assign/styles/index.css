@@ -1,0 +1,54 @@
+nav{
+    border: 1px solid green;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+  nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    width: 60%;
+    align-items: center;
+}
+button{
+  margin-top: 50px;
+  height: 30px;
+  width: 60px;
+  border: none;
+  background-color: transparent;
+}
+.Signup{
+    background-color: brown;
+    color: white;
+}
+.main-box{
+    border: 1px solid purple;
+    margin-top: 10px;
+padding: 10px;
+display: flex;
+}
+.box-one{
+    border: 1px solid orange;
+    margin-top: 10px;
+    display: flex;
+    margin-right: 10px;
+}
+.box-two{
+    border: 1px solid sienna;
+    padding: 10px;
+    background-image: url(../images/download.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: white;
+}
+.sec1{
+    border: 1px solid rgb(22, 136, 56);
+    margin-right: 10px;
+    padding: 10px;
+}
+.submit{
+    background-color: rgb(202, 21, 21);
+    padding: 10px 200px;
+
+}
